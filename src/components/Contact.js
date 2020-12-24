@@ -17,8 +17,7 @@ function Contact() {
     var handlecallback = (dataFromChild) => {
         a.push(dataFromChild)
     }
-    var handleSubmit = (e) => {        
-        alert(a);
+    var handleSubmit = (e) => {                
         e.preventDefault();
     }
     return (
@@ -39,7 +38,7 @@ function Contact() {
                                     <Label title="Subject :" />
                                     <Input type="text" maintype="input" parentcallback={handlecallback}/>
                                     <Label title="Message :" />
-                                    <Input type="textarea" maintype="textarea"/>                        
+                                    <Input type="textarea" maintype="textarea"/>                                                            
                                     <button className="btn" type="submit">Send</button>
                                 </form>                
                         </div>
@@ -77,6 +76,7 @@ function Contact() {
                                 <div className="insta"><AiFillInstagram /></div>
                                 <div className="twitt"><AiFillTwitterCircle /></div>
                             </div>
+                            
                         </div>
                     </Fade>
                 </div>                

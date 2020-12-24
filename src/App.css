@@ -136,8 +136,9 @@ body{
   text-align: center;
 }
 .container-home Button{
-  border-radius: 30px;
-  border:2px solid var(--primary_color);  
+  border-radius: 30px;  
+  background-color: var(--primary_color);
+  color: var(--white);
   padding: 1% 3% 1% 3%;
   font-weight: 500;
   font-size: 1.1rem;
@@ -403,4 +404,14 @@ body{
 }
 .container-contact .container .account{
   font-size: 1.5rem;
+}
+.container-contact .btn{
+  width: 10rem;
+  background-color: var(--primary_color);
+  color: var(--white);
+  margin-top: 2%;
+}
+.container-contact .btn:hover{
+  background-color: var(--secondary_color);
+  color: var(--white);  
 }
