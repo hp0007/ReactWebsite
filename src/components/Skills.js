@@ -17,8 +17,8 @@ const Skills = () => {
     return (
         <>
             <Sidebar id="skill" id1="prog"/>                                    
-                <div className="container-3" id="skill">
-                    <Fade left>                    
+                <div className="container-skill" id="skill">
+                    <Fade top>                    
                             <Heading title="SKILLS" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!"/>            
                     </Fade>  
                     <div className="row">

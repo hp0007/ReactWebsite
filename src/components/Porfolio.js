@@ -1,9 +1,10 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar'
 
 const Porfolio = () => {
     return (
-        <div>
-            Portfolio      
+        <div className="container-portfolio" id="portfolio">
+            <Sidebar id="portfolio"/>
         </div>
     )
 }

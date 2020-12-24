@@ -9,7 +9,7 @@ const Home = () => {
     
     return (
         <>            
-            <div className="container-fluid" id="home">                
+            <div className="container-home" id="home">                
                 <Sidebar id="home"/>
                 {/* <img src={back} className="back"/> */}                                                     
                     <div className="overlay">
@@ -18,7 +18,7 @@ const Home = () => {
                                 <h1>I AM DESIGNER</h1>
                                 <p className="seco">I Make Wonderful Things</p>
                                 <p className="thir">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit ex reprehenderit eos architecto sed debitis nam optio repellat quis. Aliquid suscipit nesciunt corrupti non quaerat obcaecati unde adipisci et!</p>
-                                <Button name="My Porfolio" />
+                                <Button name="My Porfolio" link="/portfolio"/>
                             </div>                    
                         </Fade>
                     </div>                
