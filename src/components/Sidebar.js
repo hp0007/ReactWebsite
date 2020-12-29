@@ -106,7 +106,7 @@ const Header = (props) => {
                 <h4 className="name">Harshit Gajjar</h4>
                 <p className="work">Web Designer</p>
                 <div className="container">                    
-                    <div className="sidebar active" id="sidebar">
+                    <div className="sidebar active">
                     {
                         navdata.map(data => {
                             return(    
