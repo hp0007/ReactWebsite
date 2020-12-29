@@ -4,7 +4,7 @@
 :root{  
   --background_basic_color:#E8E5DA;
   --white:#fff;
-  --primary_color:#ff6767;
+  --primary_color: #DC143C;
   --secondary_color:#000;
   --font_weight_bold:900;
   --font_weight_medium:700;
@@ -28,7 +28,7 @@ body{
   position: fixed;
   left: 0;
   font-family: 'Work Sans', sans-serif;
-  background-color: #000;
+  background-color: var(--secondary_color);
   color:#fff;  
   transition: all .7s;
   z-index: 1;
@@ -94,6 +94,9 @@ body{
   width: 100%;
   text-decoration: none;  
   /* border-radius: 10px; */
+}
+.sidebar .sidebar-item.active2{
+  background-color: var(--primary_color);
 }
 .fa-arrow-circle-right{
   color: var(--white);
@@ -352,7 +355,7 @@ body{
   line-height: 1.4em;
   font-weight: var(--font_weight_regular);
 }
-.container-contact .container Input{
+.container-contact .container input{
   height: 2.4em;
   width: 90%;
   margin-bottom: 3%;  

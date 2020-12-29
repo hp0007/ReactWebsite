@@ -1,9 +1,8 @@
-import React from 'react'
+import {React, useState} from 'react'
 import Sidebar from '../components/Sidebar'
 import Heading from '../components/ReusableComoponents/Heading'
-import Button from '../components/ReusableComoponents/Button'
+import {useForm} from 'react-hook-form'
 import Fade from 'react-reveal'
-import Input from '../components/ReusableComoponents/Input'
 import Label from '../components/ReusableComoponents/Label'
 import {ImLocation} from 'react-icons/im'
 import {IoMdCall} from 'react-icons/io'
@@ -12,13 +11,13 @@ import {AiFillGithub} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 
-function Contact() {
-    var a = [];
-    var handlecallback = (dataFromChild) => {
-        a.push(dataFromChild)
-    }
-    var handleSubmit = (e) => {                
-        e.preventDefault();
+const Contact = () => {
+    const {register , handleSubmit} = useForm() 
+
+
+    const onSubmit = (data) => { 
+        // alert(data.fullname)     
+        
     }
     return (
         <div className="container-contact" id="contact">
@@ -30,15 +29,15 @@ function Contact() {
                 <div className="row">
                     <Fade left>
                         <div className="col-12 col-md-6 col-lg-6 ">                        
-                                <form onSubmit={handleSubmit}>
+                                <form onSubmit={handleSubmit(onSubmit)} method="post">
                                     <Label title="Your Name :" />
-                                    <Input type="text" maintype="input" parentcallback={handlecallback}/>
+                                    <input type="text" name="fullname" id="name" ref={register} />
                                     <Label title="Email Address :" />
-                                    <Input type="email" maintype="input" parentcallback={handlecallback}/>
+                                    <input type="email" name="email" id="email" ref={register} />
                                     <Label title="Subject :" />
-                                    <Input type="text" maintype="input" parentcallback={handlecallback}/>
+                                    <input type="text" name="subject" id="subject" ref={register}/>
                                     <Label title="Message :" />
-                                    <Input type="textarea" maintype="textarea"/>                                                            
+                                    <input type="textarea" name="msg" id="msg" ref={register} />                                                            
                                     <button className="btn" type="submit">Send</button>
                                 </form>                
                         </div>
