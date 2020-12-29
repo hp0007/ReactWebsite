@@ -21,8 +21,7 @@ const About = () => {
                         <Fade right>
                         <div className="col-12 col-md-6 right">
                             <h4>Hi There</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui eaque temporibus voluptates labore porro esse placeat consequuntur delectus at corrupti molestias necessitatibus dicta, quos, unde itaque explicabo quasi dolorem.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui eaque temporibus voluptates labore porro esse placeat consequuntur delectus at corrupti molestias necessitatibus dicta, quos, unde itaque explicabo quasi dolorem.</p>                            
                             <div className="row">                
                                 <div className="col-6 col-md-6 inleft">
                                     <Fade top>

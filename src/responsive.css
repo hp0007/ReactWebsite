@@ -1,7 +1,7 @@
 @media screen and (max-width:767px){
     .sidepart{      
       width: 100%;
-      height: 8vh;
+      height: 7vh;
       position: fixed;      
       padding: 0;
       margin: 0;
@@ -36,7 +36,7 @@
         color: #fff;                 
       }
       .overlay .content h1{
-        font-size: 3rem;        
+        font-size: 2rem;        
       }
       .overlay .content .seco{
         font-size: 1.2rem;        
@@ -44,38 +44,97 @@
       .overlay .content .thir{
         font-size: 1.2rem;        
       }
-}
-@media screen and (min-width:768px){
-    .container-fluid {
-        width: 100%;                
-        height: 100%;        
-        padding: 0;
-        
-        background-size: 100% 100%;        
+      .container-home .overlay .content h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: 2px;
       }
-      .overlay{  
-        height: 100%;                        
+      .container-home .overlay .content .seco{
+        font-size: 1rem;
+      }
+      .container-home .overlay .content .thir{        
+        font-size: 1rem;
+        text-align: justify;
+        font-weight: 500;
+      }
+      .container-home Button{
+        padding: 4% 6% 4% 6%;
+        font-size: 1rem;
+      }
+
+      .container-1{
+        margin-top: 30%;
+        width: 80%;
+      }
+      .container-1 p{
+        font-size: 0.7rem;        
+      }
+      .container-service{
         width: 100%;
-        margin: 0% auto;                        
-        opacity:0.8;  
-        background-color: #000;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
       }
-      .overlay .content{ 
-        color: #fff;                 
+      .container-about{
+        width: 100%;
       }
-      .overlay .content h1{
-        font-size: 3rem;        
+      .container-about .left img{
+        height: 65%;
       }
-      .overlay .content .seco{
-        font-size: 1.2rem;        
+      .container-about .right{
+        max-width: 100%;
+        margin-top: -30%;        
+        word-wrap: break-word;
+        font-size: 0.8rem;
+        padding: 0 10% 0 10%;
+        text-align: justify;
       }
-      .overlay .content .thir{
-        font-size: 1.2rem;        
+      .container-about .right h4{
+        font-size: 1rem;
+      }      
+      .container-about .right .inright{
+        margin-left: -10%;
       }
-}
+
+      .container-skill{
+        width: 100%;
+        text-align: center;
+      }      
+      .container-skill .left h3{
+        font-size: 1.5rem;
+      }
+      .container-skill .left .inn-content{
+          font-size: 0.8rem;
+      }
+      .container-skill .left Button{
+          font-size: 0.9rem;
+      }
+      .container-skill .right{
+        margin-top: 10%;
+        padding: 0 10% 0 10%;
+      }
+      .container-skill .right .progress{
+        width: 13rem;
+        height: 1.5rem;
+        margin-bottom: 5%;
+      }
+      .container-skill .right .progress .progress-inn{
+
+      }
+      .container-skill .right label{
+          font-size: 0.7rem;
+          margin-left: 4%;
+      }
+      .container-contact{
+        width: 100%;  
+      }
+      .container-contact .container .right{                
+        padding: 10% 0% 0% 15%;        
+        width: 100%;
+      }
+      .container-contact .container .detail{
+        font-size: 1rem;
+      }
+      
+} 
+
 /* @media screen and (min-width:1024px){
     
 } */
