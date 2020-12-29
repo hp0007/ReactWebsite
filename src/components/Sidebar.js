@@ -42,11 +42,12 @@ const Header = (props) => {
             icon:'fa fa-id-badge'
         }
     ]
+    
     const display = () =>{
         var sidebar = document.getElementById('sidebar');
         var maincontainer = document.getElementById('mainicon');
         var sectionofpage = document.getElementById(props.id);   
-        if(window.screen.height > 700)         {
+        if(window.screen.width > 700){
             if(sidebar.classList.contains('active')){
                 sidebar.classList.remove('active')               
                 switch(props.id){
@@ -99,7 +100,7 @@ const Header = (props) => {
         
         <>
         <Fade left>        
-            <div className="sidepart"  id="sidebar">    
+            <div className="sidepart active"  id="sidebar">    
                 <i className="fa fa-arrow-circle-right" onClick={display} id="mainicon"></i>           
                 <div className="img-profile"></div>
                 <h4 className="name">Harshit Gajjar</h4>

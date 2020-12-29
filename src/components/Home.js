@@ -3,7 +3,6 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Sidebar from './Sidebar'
 import Button from './ReusableComoponents/Button'
 import Fade from 'react-reveal/Fade'
-import '../responsive.css'
 
 const Home = () => {
     

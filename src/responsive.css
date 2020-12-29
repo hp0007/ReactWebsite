@@ -1,7 +1,7 @@
-@media screen and (max-width:767px){
+@media screen and (max-width:600px){
     .sidepart{      
       width: 100%;
-      height: 7vh;
+      height: 100vh;
       position: fixed;      
       padding: 0;
       margin: 0;
@@ -10,9 +10,9 @@
       transition: .5s;
     }        
     .sidepart.active{      
-      padding: 0;
+      padding: 0;      
       margin: 0;
-      height: 100vh;
+      height: 7vh;      
     }
     .container-home{
         width: 100%;                
@@ -115,12 +115,12 @@
         height: 1.5rem;
         margin-bottom: 5%;
       }
-      .container-skill .right .progress .progress-inn{
-
-      }
       .container-skill .right label{
           font-size: 0.7rem;
           margin-left: 4%;
+      }
+      .container-portfolio{
+        width: 100%;
       }
       .container-contact{
         width: 100%;  

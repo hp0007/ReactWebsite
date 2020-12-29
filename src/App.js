@@ -8,6 +8,7 @@ import Skills from './components/Skills'
 import Portfolio from './components/Porfolio'
 import Contact from './components/Contact'
 import Error from './components/Error'
+import './responsive.css'
 
 function App() {
   return (
