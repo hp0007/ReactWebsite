@@ -35,8 +35,9 @@
       .overlay .content{ 
         color: #fff;                 
       }
-      .overlay .content h1{
-        font-size: 2rem;        
+      .overlay .content .title{
+        font-size: 2.7rem;        
+        margin-bottom: -15%;        
       }
       .overlay .content .seco{
         font-size: 1.2rem;        

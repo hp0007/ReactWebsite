@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&family=Work+Sans:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap');
 
 :root{  
   --background_basic_color:#E8E5DA;
@@ -9,7 +8,7 @@
   --font_weight_bold:900;
   --font_weight_medium:700;
   --font_weight_regular:500;
-  --font_family:'Work Sans', sans-serif;
+  --font_family:'Poppins', sans-serif;
 }
 
 *{
@@ -17,8 +16,6 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-}
-body{
   font-family: var(--font_family);
 }
 /* Sidebar */
@@ -29,7 +26,7 @@ body{
   left: 0;
   font-family: 'Work Sans', sans-serif;
   background-color: var(--secondary_color);
-  color:#fff;  
+  color:var(--white);  
   transition: all .7s;
   z-index: 1;
 }
@@ -53,6 +50,7 @@ body{
 .name{  
   text-align: center;
   margin-top: 2%;  
+  line-height: 2.5rem;
 }
 .work{
   text-align: center;
@@ -115,6 +113,20 @@ body{
   padding-right: 3%;  
 }
 
+/* text animation */
+
+.container-home .title{
+  font-weight: 800;
+  color: transparent;
+  font-size: 7rem;
+  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background-position: 40% 50%;  
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 11rem;
+  letter-spacing: -2px;
+}
 /* home page */
 .container-home{
   width: 96%;  
@@ -133,12 +145,11 @@ body{
   align-items: center;
   padding:2px;  
   padding: 0% 10% 0% 10%;             
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6)
 }
 .container-home .overlay .content{ 
   color: var(--secondary_color);   
-  z-index: 1;
-  font-family: 'Work Sans', sans-serif;
+  z-index: 1;  
   text-align: center;
 }
 .container-home Button{
@@ -155,15 +166,16 @@ body{
   color: var(--white);
 }
 .container-home .overlay .content h1{
+  line-height: 5.5rem;
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: 2px;
 }
 .container-home .overlay .content .seco{
-  font-size: 1.5rem;
-  font-family: 'Yellowtail', cursive;
+  font-size: 1.5rem;  
   letter-spacing: 3px;
   font-weight: 600;
+  font-family: 'Lobster', cursive;
 }
 .container-home .overlay .content .thir{
   font-family: 1.2rem;
@@ -177,11 +189,13 @@ body{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
-  color: var(--secondary_color);
-  font-family: 'Work Sans', sans-serif;
+  margin-top: 5%;    
+  color: var(--secondary_color);  
 }
-
+.container-1 h3{
+  line-height: 2.5rem;
+  font-weight: 580;
+}
 .container-1 .line{  
   height: 2px;
   width: 4rem;  
@@ -228,6 +242,7 @@ body{
 }
 .container-service .card h4{
   padding-top: 10%;  
+  line-height: 2rem;
 }
 .container-service .card p{
   text-align: center;
@@ -280,7 +295,7 @@ body{
   font-weight: 500;  
 }
 .container-skill .left h3{
-  height: 2.5rem;  
+  line-height: 2.8rem;
   font-size: 2rem;
   font-weight: 700;
 }
