@@ -23,7 +23,7 @@ const About = () => {
                             <h4>Hi There</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui eaque temporibus voluptates labore porro esse placeat consequuntur delectus at corrupti molestias necessitatibus dicta, quos, unde itaque explicabo quasi dolorem.</p>                            
                             <div className="row">                
-                                <div className="col-6 col-md-6 inleft">
+                                <div className="col-12 col-md-6 inleft">
                                     <Fade top>
                                         <h4>Name:</h4>
                                         <p>Harshit Gajjar</p>
@@ -31,7 +31,7 @@ const About = () => {
                                         <p>+91 9106639372</p>
                                     </Fade>                            
                                 </div>                            
-                                <div className="col-6 col-md-6 inright">
+                                <div className="col-12 col-md-6 inright">
                                     <Fade top>
                                         <h4>Email:</h4>
                                         <p>hpgajjar95336@gmail.com</p>
