@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Fade from 'react-reveal/Fade'
 
+
 const Header = (props) => {        
     
     const navdata = [
@@ -65,7 +66,7 @@ const Header = (props) => {
                                     break
                     default:alert('error')
                 }
-                maincontainer.classList.replace('fa-arrow-circle-right','fa-arrow-circle-left')            
+                maincontainer.classList.replace('fa-bars','fa-close')            
             }
             else{
                 sidebar.classList.add('active')                                
@@ -84,15 +85,18 @@ const Header = (props) => {
                                     break
                     default:alert('error')
                 }
-                maincontainer.classList.replace('fa-arrow-circle-left','fa-arrow-circle-right')            
+                maincontainer.classList.replace('fa-close','fa-bars')        
             }
         } 
-        else{
+        else{            
+            
             if(sidebar.classList.contains('active')){
-                sidebar.classList.remove('active')                                           
+                sidebar.classList.remove('active')                     
+                maincontainer.classList.replace('fa-bars','fa-close')                        
             }
             else{
-                sidebar.classList.add('active')                                           
+                sidebar.classList.add('active')                        
+                maincontainer.classList.replace('fa-close','fa-bars')                     
             }
         }       
     }             
@@ -101,7 +105,7 @@ const Header = (props) => {
         <>
         <Fade left>        
             <div className="sidepart active"  id="sidebar">    
-                <i className="fa fa-arrow-circle-right" onClick={display} id="mainicon"></i>           
+                <i className="fa fa-bars" onClick={display} id="mainicon"></i>           
                 <div className="img-profile"></div>
                 <h4 className="name">Harshit Gajjar</h4>
                 <p className="work">Web Designer</p>

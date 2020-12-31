@@ -12,8 +12,15 @@
     .sidepart.active{      
       padding: 0;      
       margin: 0;
-      height: 7vh;      
+      height: 8vh;      
     }
+    .sidepart .img-profile{
+      margin-top: 18%;      
+    }
+    .fa-bars,.fa-close{
+        margin-top: 3%;
+        font-size: 1.7rem;
+    }  
     .container-home{
         width: 100%;                
         height: 100vh;        
