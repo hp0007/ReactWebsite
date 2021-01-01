@@ -106,9 +106,9 @@ const Header = (props) => {
         <Fade left>        
             <div className="sidepart active"  id="sidebar">    
                 <i className="fa fa-bars" onClick={display} id="mainicon"></i>           
-                <div className="img-profile"></div>
-                <h4 className="name">Harshit Gajjar</h4>
-                <p className="work">Web Designer</p>
+                    <div className="img-profile"></div>
+                    <h4 className="name">Harshit Gajjar</h4>
+                    <p className="work">Web Designer</p>
                 <div className="container">                    
                     <div className="sidebar active">
                     {

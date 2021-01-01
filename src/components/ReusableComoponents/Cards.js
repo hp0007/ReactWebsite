@@ -4,7 +4,7 @@ import Card from '../../components/ReusableComoponents/Card'
 const Cards = (props) => {
     return (
         <>            
-            <div className="container" >                
+            <div className="container align-items-center">                
                 <div className="row">
                     {
                         props.cardData.map(data => {

@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from './Sidebar'
 import Heading from './ReusableComoponents/Heading'
 import Button from './ReusableComoponents/Button'
+import Bubble from '../components/ReusableComoponents/Bubbles'
 import Fade from 'react-reveal'
 
 
@@ -18,6 +19,7 @@ const Skills = () => {
         <>
             <Sidebar id="skill" id1="prog"/>                                    
                 <div className="container-skill" id="skill">
+                    <Bubble />
                     <Fade top>                    
                             <Heading title="SKILLS" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!"/>            
                     </Fade>  

@@ -2,6 +2,7 @@ import React from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Sidebar from './Sidebar'
 import Button from './ReusableComoponents/Button'
+import Bubble from '../components/ReusableComoponents/Bubbles'
 import Fade from 'react-reveal/Fade'
 import $ from 'jquery'
 
@@ -22,8 +23,9 @@ const Home = () => {
       });
     return (
         <>            
-            <div className="container-home" id="home">                
-                <Sidebar id="home"/>
+            <div className="container-home" id="home">    
+                <Bubble />            
+                <Sidebar id="home"/>                
                 {/* <img src={back} className="back"/> */}                                                     
                     <div className="overlay">
                         <Fade right>
