@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade'
 const Card = (props) => {
     return (        
         <Fade top>
-            <div className="card" style={{background:"#111"}}>                
+            <div className="card">                
                 <i className={props.icon} ></i>
                 <h4 className="text-center">{props.title}</h4>
                 <div className="card-body ">

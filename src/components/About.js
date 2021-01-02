@@ -1,15 +1,13 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Heading from './ReusableComoponents/Heading'
-import Bubble from '../components/ReusableComoponents/Bubbles'
 import img1 from '../images/profile2.png'
 import Fade from 'react-reveal'
 
 const About = () => {
     return (        
         <>
-            <Sidebar id="about"/>   
-                <Bubble />                                 
+            <Sidebar id="about"/>                                          
                 <div className="container-about" id="about">
                     <Fade top>                    
                             <Heading title="ABOUT" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!"/>            

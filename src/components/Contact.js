@@ -4,7 +4,6 @@ import Heading from '../components/ReusableComoponents/Heading'
 import {useForm} from 'react-hook-form'
 import Fade from 'react-reveal'
 import Label from '../components/ReusableComoponents/Label'
-import Bubble from '../components/ReusableComoponents/Bubbles'
 import {ImLocation} from 'react-icons/im'
 import {IoMdCall} from 'react-icons/io'
 import {IoMdMail} from 'react-icons/io'
@@ -21,8 +20,7 @@ const Contact = () => {
         
     }
     return (
-        <div className="container-contact" id="contact">
-            <Bubble />
+        <div className="container-contact" id="contact">            
             <Sidebar id="contact" />
             <Fade top>
                 <Heading title="GET IN TOUCH" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!" />
