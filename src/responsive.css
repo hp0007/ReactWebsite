@@ -19,6 +19,9 @@
       background-color: var(--background);     
       transition: .5s;
     }        
+    .sidepart .work{
+      margin-top: 1%;
+    }
     .sidepart.active{      
       padding: 0;      
       margin: 0;
@@ -28,7 +31,7 @@
       margin-top: 18%;      
     }
     .fa-bars,.fa-close{
-        margin-top: 3%;
+        margin-top: 3.5%;
         font-size: 1.7rem;
     }  
     .container-home{
@@ -53,11 +56,11 @@
         color: var(--background);                 
       }
       .container-home .overlay .content h3{
-          font-size: 3.6rem;
+          font-size: 3.8rem;
           overflow: hidden;
           width: 100%;
-          padding: 0;
-          margin: 0;
+          color: var(--primary_color);          
+          opacity: 1;          
           z-index: 1;
       }      
       .overlay .content .seco{
@@ -101,6 +104,8 @@
       .container-service .card{
         margin: 0 auto 10%;
         float: none;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-top: 1.5%;
       }
       .container-about{
         width: 100%;
