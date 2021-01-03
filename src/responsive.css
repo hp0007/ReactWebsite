@@ -30,6 +30,14 @@
     .sidepart .img-profile{
       margin-top: 18%;      
     }
+    .sidebar{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar i{
+      margin-top: 2%;
+    }
     .fa-bars,.fa-close{
         margin-top: 3.5%;
         font-size: 1.7rem;
@@ -151,6 +159,11 @@
         width: 13rem;
         height: 1.5rem;
         margin-bottom: 5%;
+        overflow: hidden;
+      }
+      .container-skill .right .progress-inn{
+        overflow: hidden;
+        font-size: 1rem;
       }
       .container-skill .right label{
           font-size: 0.7rem;
