@@ -138,6 +138,7 @@
       }
       .container-skill .left .inn-content{
           font-size: 0.8rem;
+          overflow: hidden;
       }
       .container-skill .left Button{
           font-size: 0.9rem;
