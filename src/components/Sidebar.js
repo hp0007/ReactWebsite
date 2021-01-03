@@ -8,37 +8,37 @@ const Header = (props) => {
     const navdata = [
         {
             id:1,
-            name:'HOME',
+            name:'Home',
             path:'/ReactWebsite',    
             icon:'fa fa-home'
         },
         {
             id:2,
-            name:'SERVICES',
+            name:'Services',
             path:'/services',            
             icon:'fa fa-cogs'
         },
         {
             id:3,
-            name:'ABOUT',
+            name:'About',
             path:'/about',            
             icon:'fa fa-exclamation-circle'
         },
         {
             id:4,
-            name:'SKILLS',
+            name:'Skills',
             path:'/skills',
             icon:'fa fa-gg-circle'
         },
         {
             id:5,
-            name:'PORTFOLIO',
+            name:'Portfolio',
             path:'/portfolio',            
             icon:'fa fa-file'
         },        
         {
             id:6,
-            name:'CONTACT',
+            name:'Contact',
             path:'/contact',            
             icon:'fa fa-id-badge'
         }

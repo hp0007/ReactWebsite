@@ -28,7 +28,7 @@ const Contact = () => {
             <div className="container">
                 <div className="row">
                     <Fade left>
-                        <div className="col-12 col-md-6 col-lg-6 ">                        
+                        <div className="col-12 col-md-6 col-lg-6 left">                        
                                 <form onSubmit={handleSubmit(onSubmit)} method="post">
                                     <Label title="Your Name :" />
                                     <input type="text" name="fullname" id="name" ref={register} />

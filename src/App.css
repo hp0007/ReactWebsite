@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap');
 
-:root{    
-  --white:#fff;
-  --primary_color: #091834;
-  --black:#141414;
-  --background:#EFEFEF;
-  --lightGray:#D6D6D6;
+:root{      
+  --primary_color: #FF6347;  
+  --background:#FFFFFF;
+  --black:#000;
+  --lightGray:#878788;
   --font_weight_bold:900;
   --font_weight_medium:700;
   --font_weight_regular:500;
@@ -19,18 +18,20 @@
   font-family: var(--font_family);
   overflow-x: hidden;
 }
+body{
+  background-color: var(--primary_color);
+}
 /* Sidebar */
 .sidepart{
   width: 20%;
   height: 100vh;  
   position: fixed;
-  left: 0;
-  font-family: 'Work Sans', sans-serif;
-  background-color: var(--white);
+  left: 0;  
+  background-color: var(--background);
   color:var(--black);  
   transition: all .7s;
   z-index: 11;
-  box-shadow: 0 2px 20px rgba(0,0,0,0.07);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
 .sidepart.active{
@@ -43,15 +44,13 @@
   background-image: url(./images/Black.png);  
   background-size: cover;      
   border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;  
-  margin-top: 22%;
+  margin: 22% auto 7% auto;
+  display: block;    
 }
 .name{  
   text-align: center;
   margin-top: 2%;  
-  line-height: 2.5rem;
+  overflow: hidden;  
   font-size: 1.2rem;
 }
 .work{
@@ -59,39 +58,43 @@
   font-weight: 500;
   margin-top: -3%;
   font-size: 0.9rem;
+  color: var(--lightGray);
 }
 .sidebar{
   display: flex;  
   flex-direction: column;  
   left: 0;
   position: absolute;
-  width: 100%;
+  width: 100%;    
+  /* text-align: center; */
   /* text-align: center;     */
 }
 .sidebar i{  
   float: right; 
   z-index: 11; 
-  line-height: 1.4rem;
+  overflow: hidden;
   font-size: 1.3rem;      
   object-fit: cover;  
-  margin-top: 2.5%;
+  margin-top: 3.2%;      
 }
 .sidebar .sidebar-item{  
   margin-top: 5%;  
   min-width: 100%;
-  font-size: 0.9rem;  
+  font-size: 1.1rem;  
   font-weight: 500;   
   text-decoration: none;
   line-height: 38px;
   transition: 0.6s;
-  color: var(--lightGray);  
+  color: var(--black);  
   margin-left: 2%;  
   padding-right: 8%;  
-  padding-left: 3%;
+  padding-left: 2%;  
   text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: var(--font_weight_medium);
 }
 .sidebar .sidebar-item:hover{  
-  color: var(--black);
+  color: var(--primary_color);
   width: 100%;
   text-decoration: none;  
   font-weight: var(--font_weight_bold);
@@ -99,23 +102,26 @@
 }
 .sidebar .sidebar-item.active2{
   font-weight: var(--font_weight_bold);
-  color: var(--black);
+  color: var(--primary_color);
+  background-image: linear-gradient(to right, #FFECE8 , #FFD8D1);
 }
 .fa-bars{
-  color: var(--lightGray);
+  color: var(--black);
   float: right;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 5%;  
   z-index: 13;  
-  padding-right: 5%;    
+  padding-right: 5%;
+  overflow: hidden;    
 }
 .fa-close{
-  color: var(--lightGray);
+  color: var(--black);
   float: right;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 5%;  
   z-index: 13;
-  padding-right: 5%;    
+  padding-right: 5%;   
+  overflow: hidden;     
 }
 
 /* text animation */
@@ -148,9 +154,10 @@
 }
 .container-home .overlay .content h3{  
   font-size: 7rem;  
-  line-height: 10rem;  
+  overflow: hidden;  
   text-transform: uppercase;
-  background: rgba(255,255,255, 0.4);
+  background: #FF6347;
+  opacity: 0.5;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;        
   font-weight: bold;  
@@ -159,20 +166,20 @@
 .container-home Button{
   border-radius: 30px;  
   background-color: transparent;
-  color: var(--white);
-  border: 1px solid #fff;
+  color: var(--primary_color);
+  border: 1px solid var(--primary_color);
   padding: 1% 3% 1% 3%;
   font-weight: 500;
   font-size: 1.1rem;
   letter-spacing: 1px;
 }
 .container-home Button:hover{  
-  color: var(--black);
-  background-color: var(--white);
+  color: var(--background);
+  background-color: var(--primary_color);
 
 }
 .container-home .overlay .content h1{
-  line-height: 5.5rem;
+  overflow: hidden;  
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -180,11 +187,9 @@
 .container-home .overlay .content .seco{
   font-size: 1.5rem;  
   letter-spacing: 3px;
-  font-weight: 600;
-  font-family: 'Lobster', cursive;
+  font-weight: 600;  
 }
-.container-home .overlay .content .thir{
-  font-family: 1.2rem;
+.container-home .overlay .content .thir{  
   text-align: justify;
   font-weight: 500;
 }
@@ -199,7 +204,7 @@
   color: var(--black);  
 }
 .container-1 h3{
-  line-height: 2.5rem;
+  overflow: hidden;  
   font-weight: 580;
 }
 .container-1 .line{  
@@ -210,16 +215,17 @@
   margin-right: auto;
 }
 .container-1 p{
-  margin-top: 5%;
+  margin-top: 2%;
+  font-size: 0.9rem;
 }
 /* services */
 .container-service{
   width: 96%;  
   height: 100vh;            
   right: 0;  
-  position: fixed;
-  font-family: 'Work Sans', sans-serif;   
-  transition: all .7s;
+  position: fixed;  
+  transition: all .7s;  
+  padding: 0%;
   background: var(--background);
 }
 .fa-desktop{
@@ -243,13 +249,14 @@
   text-align: center;  
   margin-top: 20%;     
   border: none;   
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   margin-bottom: 2%;
-  border-radius: 10%;
+  border-radius: 5%;  
 }
 .container-service .card h4{
   padding-top: 10%;  
-  line-height: 2rem;
+  overflow-y: hidden;  
+  /* line-height: 2rem; */
 }
 .container-service .card p{
   text-align: center;
@@ -262,9 +269,8 @@
   height: 100vh;  
   padding-left: 2%;           
   right: 0;
-  position: absolute;
-  font-family: 'Work Sans', sans-serif;  
-  transition: all .7s;
+  position: absolute;  
+  transition: all .7s;  
   background: var(--background);
 }
 .container-about .left{
@@ -288,8 +294,8 @@
   height: 100vh;  
   right: 0px;
   position: absolute;
-  transition: 0.7s all;  
-  background: var(--background);
+  transition: 0.7s all;   
+  background: var(--background); 
 }
 .container-skill .row{
   margin-top: 5%;  
@@ -302,7 +308,7 @@
   font-weight: 500;  
 }
 .container-skill .left h3{
-  line-height: 2.8rem;
+  overflow: hidden;  
   font-size: 2rem;
   font-weight: 700;
 }
@@ -362,8 +368,8 @@
   width: 96%;
   height: 100vh;
   right: 0;
-  position: absolute;  
-  background: var(--background);
+  position: absolute; 
+  background: var(--background);   
 }
 
 /* contact */
@@ -379,20 +385,18 @@
   padding: 2% 5%;
 }
 .container-contact .container Label{
-  line-height: 1.4em;
+  overflow: hidden;  
   font-weight: var(--font_weight_regular);
 }
 .container-contact .container input{
   height: 2.4em;
   width: 90%;
   margin-bottom: 3%;  
-  padding-left: 2%;  
-  border-top: none;
-  border-left: none;
-  border-right: 4px solid var(--primary_color);;
-  border-bottom: none;
+  padding-left: 2%;    
+  border: none;  
   outline: none;  
   border-radius: 0.5em ;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .container-contact .container textarea{  
   padding-left: 2%;
@@ -404,7 +408,7 @@
   padding: 0 0 0 8%;
 }
 .container-contact .container .detail{
-    font-size: 1.5rem;    
+    font-size: 1.2rem;    
     padding-top: 5%;    
 }
 .container-contact .container .detail .row{
