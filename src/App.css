@@ -420,7 +420,7 @@ body{
   text-align: center;
   color: var(--primary_color);
   margin-top: 8%;
-  margin-right: 15%;
+  margin-right: 21%;
   border: 2px solid var(--primary_color);
   transition: .5s;
 }
