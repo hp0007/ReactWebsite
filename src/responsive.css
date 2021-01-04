@@ -191,6 +191,12 @@
       .container-contact .left input{
         width: 100%;
       }
+      .container-contact .container .account{                                        
+          width: 78%;
+          padding: 0;
+      }
+      .container-contact .container .account .git,.insta,.twitt{           
+      }
 } 
 
 /* @media screen and (min-width:1024px){

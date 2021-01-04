@@ -404,43 +404,47 @@ body{
   width: 90%;
 }
 .container-contact .container .right{
-  padding: 0 0 0 8%;
+  
 }
-.container-contact .container .detail{
+.container-contact .container .detail{    
+    width: 100%;
     font-size: 1.2rem;    
     padding-top: 5%;    
 }
-.container-contact .container .detail .row{
-  padding-bottom: 5%;
+.container-contact .container .account{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 10%;
 }
-.container-contact .container .account .git,.twitt,.insta{
-  height: 3rem;
-  width: 3rem;
-  border-radius: 50%;
-  text-align: center;
+.container-contact .container .account .insta,.twitt,.git{  
+  width: 3.5rem;
+  height: 3.5rem;  
+  text-align: center;  
+  padding: 2% 0;
   color: var(--primary_color);
-  margin-top: 8%;
-  margin-right: 18%;
-  border: 2px solid var(--primary_color);
-  transition: .5s;
+  border:2px solid var(--primary_color);
+  border-radius: 50%;
+}
+.container-contact .container .account .git:hover{
+  cursor: pointer;
+  background: var(--primary_color);
+  color: var(--white);
 }
 .container-contact .container .account .insta:hover{
-  background: var(--primary_color);
   cursor: pointer;
+  background: var(--primary_color);
   color: var(--white);
 }
 .container-contact .container .account .twitt:hover{
-  background: var(--primary_color);
   cursor: pointer;
+  background: var(--primary_color);
   color: var(--white);
 }
-.container-contact .container .account .git:hover{
-  background: var(--primary_color);
-  cursor: pointer;
-  color: var(--white);
-}
-.container-contact .container .account{
-  font-size: 1.5rem;
+.container-contact .container .account .insta{
+  margin:0 5% 0 5%;
 }
 .container-contact .btn{
   width: 10rem;

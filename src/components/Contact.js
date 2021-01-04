@@ -44,7 +44,7 @@ const Contact = () => {
                     </Fade>
                     <Fade right>
                         <div className="col-12 col-md-6 col-lg-6 right ">
-                            <div className="detail ">
+                            <div className="detail">
                                 <div className="row">
                                     <div className="col-2 col-md-2 ">                                    
                                         <ImLocation />                
@@ -70,7 +70,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="account d-flex ">
+                            <div className="account">
                                 <div className="git"><AiFillGithub /></div>
                                 <div className="insta"><AiFillInstagram /></div>
                                 <div className="twitt"><AiFillTwitterCircle /></div>
