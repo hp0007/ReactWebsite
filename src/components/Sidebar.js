@@ -52,7 +52,7 @@ const Header = (props) => {
         var sidebar = document.getElementById('sidebar');
         var maincontainer = document.getElementById('mainicon');
         var sectionofpage = document.getElementById(props.id);   
-        if(window.screen.width > 700){
+        if(window.screen.width > 900){
             if(sidebar.classList.contains('active')){
                 sidebar.classList.remove('active')               
                 switch(props.id){
@@ -109,7 +109,7 @@ const Header = (props) => {
         <>        
             <div className="sidepart active"  id="sidebar">    
                     <i className="fa fa-bars" onClick={display} id="mainicon"></i>           
-                    <div className="img-profile"></div>
+                    <div className="img-profile"></div> 
                     <h4 className="name">Harshit Gajjar</h4>
                     <p className="work">Web Designer</p>
                 <div className="container">                    

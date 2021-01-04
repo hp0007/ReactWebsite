@@ -8,6 +8,215 @@
   --font_weight_regular:500;
 }
 
+@media screen and (max-width:900px){
+  .sidepart{      
+    width: 100%;
+    height: 100vh;
+    position: fixed;      
+    padding: 0;
+    margin: 0;
+    z-index: 1; 
+    background-color: var(--background);       
+    transition: .5s;
+    overflow-y: hidden;
+  }        
+  .sidepart .work{
+    margin-top: 1%;
+  }
+  .sidepart.active{      
+    padding: 0;      
+    margin: 0;
+    height: 7vh;      
+  }
+  .sidepart .img-profile{
+    margin-top: 18%;      
+  }
+  .sidebar .sidebar-item{
+    width: 100%;            
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;                 
+    text-align: center;
+  }
+  .sidebar .sidebar-item.active2{
+    border-radius: 0;    
+    background: none;
+  }
+  .sidebar img{      
+    display: none;
+  }
+  .fa-bars,.fa-close{
+      margin-top: 3.5%;
+      font-size: 1.7rem;
+  }  
+  .container-home{
+      width: 100%;                
+      height: 100vh;        
+      padding: 0;
+      z-index:-1;
+      position: fixed;
+      background-size: 100% 100%;        
+    }
+    .overlay{  
+      height: 100%;                        
+      width: 100%;
+      margin: 0% auto;                
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity:0.8;  
+      background-color: var(--black);  
+    }
+    .overlay .content{ 
+      color: var(--background);                 
+    }
+    .container-home .overlay .content h3{
+        font-size: 3.8rem;
+        overflow: hidden;
+        width: 100%;
+        color: var(--primary_color);          
+        opacity: 1;          
+        z-index: 1;
+    }      
+    .overlay .content .seco{
+      font-size: 1.2rem;        
+    }
+    .overlay .content .thir{
+      font-size: 1.2rem;        
+    }
+    .container-home .overlay .content h1{
+      font-size: 2.5rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .container-home .overlay .content .seco{
+      font-size: 1rem;
+    }
+    .container-home .overlay .content .thir{        
+      font-size: 1rem;
+      text-align: justify;
+      font-weight: 500;
+    }
+    .container-home Button{
+      padding: 4% 6% 4% 6%;
+      font-size: 1rem;
+    }
+
+    .container-1{
+      margin-top: 20%;
+      margin-bottom: 5%;
+      width: 80%;
+    }
+    .container-1 h3{
+      font-size: 1.8rem;
+    }
+    .container-1 p{
+      font-size: 1rem;        
+    }
+    .container-service{
+      width: 100%;
+    }
+    .container-service .card{
+      height: 18rem;
+      margin: 0 auto 10%;
+      float: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 1.5%;
+      padding-top: 5%;
+    }
+    .container-service .card i{      
+      font-size: 5rem;      
+      overflow: hidden;
+    }
+    .container-service .card h4{
+        font-size: 2rem;
+        margin-top: -5%;
+    }
+    .container-about{
+      width: 100%;
+    }
+    .container-about .left{
+      width: 100%;                
+      text-align: center; 
+    }
+    
+    .container-about .left img{                        
+      width: 70%;
+      margin-left: -10%;
+    }
+    .container-about .right{
+      max-width: 100%;
+      margin-top: 0%;                
+      font-size: 0.8rem;                
+      text-align: justify;
+      padding: 10% 10%;
+    }
+    .container-about .right h4{
+      font-size: 1.2rem;
+    }            
+    .container-about .right p{
+      font-size: 1rem;
+    }
+    .container-skill{
+      width: 100%;
+      text-align: center;
+    }      
+    .container-skill .left h3{
+      font-size: 1.5rem;
+      margin-bottom: 4%;
+    }
+    .container-skill .left .inn-content{
+        font-size: 1rem;
+        overflow: hidden;
+    }
+    .container-skill .left Button{
+        font-size: 0.9rem;
+    }
+    .container-skill .right{
+      margin-top: 10%;
+      padding: 0 23% 0 23%;
+    }
+    .container-skill .right .progress{
+      width: 20rem;
+      height: 1.5rem;
+      margin-bottom: 5%;
+      overflow: hidden;
+    }
+    .container-skill .right .progress-inn{
+      overflow: hidden;
+      font-size: 1rem;
+    }
+    .container-skill .right label{
+        font-size: 0.7rem;
+        margin-left: 4%;
+    }
+    .container-portfolio{
+      width: 100%;
+    }
+    .container-contact{
+      width: 100%;  
+    }      
+    .container-contact .container .right{                
+      padding: 10% 0% 0% 15%;        
+      width: 100%;
+    }
+    .container-contact .container .detail{
+      font-size: 1.8rem;      
+    }
+    .container-contact .left input{
+      width: 100%;
+    }
+    .container-contact .container .account{                                        
+        width: 78%;
+        padding: 0;
+    }
+    .container-contact .container .account .git,.twitt{ 
+        padding-top: 1.2%;          
+    }  
+    .container-contact .container .account .insta{
+        padding-top: 1.2%;          
+    }
+}
 @media screen and (max-width:600px){
     .sidepart{      
       width: 100%;
@@ -121,6 +330,13 @@
         float: none;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         margin-top: 1.5%;
+        padding-top: 15%;
+      }
+      .container-service .card i{
+        font-size: 3rem;
+      }
+      .container-service .card h4{
+        font-size: 1rem;
       }
       .container-about{
         width: 100%;

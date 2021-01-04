@@ -9,7 +9,7 @@ const Cards = (props) => {
                     {
                         props.cardData.map(data => {
                             return(
-                                <div className="col-12 col-sm-12 col-md-4" key={data.id}>                                
+                                <div className="col-12 col-sm-12 col-md-12 col-lg-4" key={data.id}>                                
                                     <Card valu={data.value} title={data.title} icon={data.icon}/>
                                 </div>  
                             )                            

@@ -23,7 +23,7 @@ const Skills = () => {
                     </Fade>  
                     <div className="row">
                         <Fade left>
-                            <div className="col-12 col-md-6 left">   
+                            <div className="col-12  col-md-12 col-lg-6 left">   
                                 <div className="content">
                                     <p className="title">I,M EXPERT ON</p>
                                     <h3 className="heading">Let,s Work Together</h3>
@@ -33,7 +33,7 @@ const Skills = () => {
                             </div>
                         </Fade>
                         <Fade right>
-                            <div className="col-12 col-md-6 right" >                                                                    
+                            <div className="col-12 col-md-12 col-lg-6 right" >                                                                    
                                 {
                                     data.map((data1) => {
                                         return(

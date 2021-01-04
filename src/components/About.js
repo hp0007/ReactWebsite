@@ -3,6 +3,7 @@ import Sidebar from './Sidebar'
 import Heading from './ReusableComoponents/Heading'
 import img1 from '../images/profile2.png'
 import Fade from 'react-reveal'
+import '../responsive.css'
 
 const About = () => {
     return (        
@@ -14,12 +15,12 @@ const About = () => {
                     </Fade>  
                     <div className="row">
                         <Fade left>
-                        <div className="col-12 col-md-6 left">
+                        <div className="col-12 col-md-12 col-lg-6 left">
                             <img src={img1}/>
                         </div>
                         </Fade>
                         <Fade right>
-                        <div className="col-12 col-md-6 right">
+                        <div className="col-12 col-md-12 col-lg-6 right">
                             <h4>Hi There</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui eaque temporibus voluptates labore porro esse placeat consequuntur delectus at corrupti molestias necessitatibus dicta, quos, unde itaque explicabo quasi dolorem.</p>                            
                             <div className="row">                

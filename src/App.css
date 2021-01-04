@@ -40,10 +40,11 @@ body{
 }
 
 .img-profile{
-  height: 7rem;
-  width: 7rem;
+  height: 8rem;
+  width: 8rem;  
   background-image: url(./images/Black.png);  
-  background-size: cover;      
+  background-size: 80% 80%;      
+  background-repeat: no-repeat;
   border-radius: 50%;
   margin: 22% auto 7% auto;
   display: block;    
