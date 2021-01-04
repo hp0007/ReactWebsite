@@ -1,7 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Fade from 'react-reveal/Fade'
-
+import homeImg from '../images/icons/home.png' 
+import serviceImg from '../images/icons/technical-support.png'
+import aboutImg from '../images/icons/about.png'
+import skillImg from '../images/icons/skill.png'
+import portfolioImg from '../images/icons/briefcase.png'
+import contactImg from '../images/icons/contact.png'
 
 const Header = (props) => {        
     
@@ -10,37 +14,37 @@ const Header = (props) => {
             id:1,
             name:'Home',
             path:'/ReactWebsite',    
-            icon:'fa fa-home'
+            icon:homeImg
         },
         {
             id:2,
             name:'Services',
             path:'/services',            
-            icon:'fa fa-cogs'
+            icon:serviceImg
         },
         {
             id:3,
             name:'About',
             path:'/about',            
-            icon:'fa fa-exclamation-circle'
+            icon:aboutImg
         },
         {
             id:4,
             name:'Skills',
             path:'/skills',
-            icon:'fa fa-gg-circle'
+            icon:skillImg
         },
         {
             id:5,
             name:'Portfolio',
             path:'/portfolio',            
-            icon:'fa fa-file'
+            icon:portfolioImg
         },        
         {
             id:6,
             name:'Contact',
             path:'/contact',            
-            icon:'fa fa-id-badge'
+            icon:contactImg
         }
     ]
     
@@ -102,10 +106,9 @@ const Header = (props) => {
     }             
     return (
         
-        <>
-        <Fade left>        
+        <>        
             <div className="sidepart active"  id="sidebar">    
-                <i className="fa fa-bars" onClick={display} id="mainicon"></i>           
+                    <i className="fa fa-bars" onClick={display} id="mainicon"></i>           
                     <div className="img-profile"></div>
                     <h4 className="name">Harshit Gajjar</h4>
                     <p className="work">Web Designer</p>
@@ -116,15 +119,14 @@ const Header = (props) => {
                             return(    
                                 <NavLink className="sidebar-item" to={data.path} key={data.id}  onClick={display} activeClassName="active2">                                    
                                     {data.name}
-                                    <i className={data.icon}/>                                                                           
+                                    <img src={data.icon} style={{color:'black'}}/>                                                                           
                                 </NavLink>
                             )
                         })
                     }                                         
                     </div>                                                     
-                </div>
-            </div>
-            </Fade>
+                </div>                
+            </div>                
         </>
 )}
 

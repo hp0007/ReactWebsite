@@ -16,7 +16,7 @@
       padding: 0;
       margin: 0;
       z-index: 1; 
-      background-color: var(--background);     
+      background-color: var(--background);       
       transition: .5s;
     }        
     .sidepart .work{
@@ -30,13 +30,19 @@
     .sidepart .img-profile{
       margin-top: 18%;      
     }
-    .sidebar{
-      width: 100%;
-      margin: 0;
+    .sidebar .sidebar-item{
+      width: 100%;            
       padding: 0;
+      margin: 0;
+      margin-top: 5%;                 
+      text-align: center;
     }
-    .sidebar i{
-      margin-top: 2%;
+    .sidebar .sidebar-item.active2{
+      border-radius: 0;    
+      background: none;
+    }
+    .sidebar img{      
+      display: none;
     }
     .fa-bars,.fa-close{
         margin-top: 3.5%;
