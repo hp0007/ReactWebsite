@@ -226,7 +226,7 @@
       margin: 0;
       z-index: 1; 
       background-color: var(--background);       
-      transition: .5s;
+      transition: .5s;      
       overflow-y: hidden;
     }        
     .sidepart .work{
@@ -247,8 +247,8 @@
       margin-top: 5%;                 
       text-align: center;
     }
-    .sidebar .sidebar-item.active2{
-      border-radius: 0;    
+    .sidebar .sidebar-item.active2{      
+      border: none;
       background: none;
     }
     .sidebar img{      

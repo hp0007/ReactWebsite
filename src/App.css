@@ -403,13 +403,13 @@ body{
   outline: none;
   width: 90%;
 }
-.container-contact .container .right{
-  
+.container-contact .container .right .row{
+    margin-bottom: 5%;
 }
 .container-contact .container .detail{    
     width: 100%;
     font-size: 1.2rem;    
-    padding-top: 5%;    
+    padding-top: 5%;        
 }
 .container-contact .container .account{
   width: 60%;
@@ -417,7 +417,7 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .container-contact .container .account .insta,.twitt,.git{  
   width: 3.5rem;
