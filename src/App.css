@@ -43,9 +43,9 @@ body{
   height: 8rem;
   width: 8rem;  
   background-image: url(./images/Black.png);  
-  background-size: 80% 80%;      
+  background-size: 100% 100%;      
   background-repeat: no-repeat;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: 22% auto 7% auto;
   display: block;    
 }
