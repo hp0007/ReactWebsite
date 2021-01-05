@@ -227,15 +227,16 @@
       z-index: 1; 
       background-color: var(--background);       
       transition: .5s;      
-      overflow-y: hidden;
+      overflow-y: scroll;
     }        
     .sidepart .work{
-      margin-top: 1%;
+      margin-top: 1%;      
     }
     .sidepart.active{      
       padding: 0;      
       margin: 0;
-      height: 7.6vh;      
+      height: 7vh; 
+      overflow-y: hidden;     
     }
     .sidepart .img-profile{
       margin-top: 18%;      
@@ -415,6 +416,13 @@
       .container-contact .container .account .git,.insta,.twitt{           
       }
 } 
+@media screen and (max-width:400px){
+  .sidepart.active{
+    height: 7.5vh;
+    padding: 0%;
+    margin: 0%;
+  }
+}
 
 /* @media screen and (min-width:1024px){
     
