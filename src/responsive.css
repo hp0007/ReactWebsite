@@ -232,10 +232,9 @@
     .sidepart .work{
       margin-top: 1%;      
     }
-    .sidepart.active{      
-      padding: 0;      
+    .sidepart.active{            
       margin: 0;
-      height: 7vh; 
+      height: 3.7rem; 
       overflow-y: hidden;     
     }
     .sidepart .img-profile{
@@ -257,7 +256,7 @@
     }
     .fa-bars,.fa-close{
         margin-top: 3.5%;
-        font-size: 1.7rem;
+        font-size: 2rem;
     }  
     .container-home{
         width: 100%;                
@@ -418,7 +417,7 @@
 } 
 @media screen and (max-width:400px){
   .sidepart.active{
-    height: 7.5vh;
+    height: 3.4rem;
     padding: 0%;
     margin: 0%;
   }
