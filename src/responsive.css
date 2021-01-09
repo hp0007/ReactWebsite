@@ -26,7 +26,7 @@
   .sidepart.active{      
     padding: 0;      
     margin: 0;
-    height: 7vh;      
+    height: 3.4rem;      
   }
   .sidepart .img-profile{
     margin-top: 18%;      
@@ -45,9 +45,10 @@
   .sidebar img{      
     display: none;
   }
-  .fa-bars,.fa-close{
-      margin-top: 3.5%;
-      font-size: 1.7rem;
+  .fa-bars,.fa-close{    
+      margin-top: 0;  
+      line-height: 3.5rem;
+      font-size: 2rem;
   }  
   .container-home{
       width: 100%;                
@@ -220,32 +221,35 @@
 @media screen and (max-width:600px){
     .sidepart{      
       width: 100%;
-      height: 100vh;
+      height: 100%;
       position: fixed;      
       padding: 0;
       margin: 0;
       z-index: 1; 
       background-color: var(--background);       
-      transition: .5s;      
-      overflow-y: scroll;
+      transition: .5s;   
+      overflow: hidden;     
     }        
     .sidepart .work{
       margin-top: 1%;      
     }
     .sidepart.active{            
       margin: 0;
-      height: 3.7rem; 
-      overflow-y: hidden;     
+      height: 3.4rem;           
     }
     .sidepart .img-profile{
       margin-top: 18%;      
+    }
+    .sidebar{
+      height: 100%;
+      overflow-y: scroll;
     }
     .sidebar .sidebar-item{
       width: 100%;            
       padding: 0;
       margin: 0;
       margin-top: 5%;                 
-      text-align: center;
+      text-align: center;      
     }
     .sidebar .sidebar-item.active2{      
       border: none;
@@ -254,9 +258,9 @@
     .sidebar img{      
       display: none;
     }
-    .fa-bars,.fa-close{
-        margin-top: 3.5%;
-        font-size: 2rem;
+    .fa-bars,.fa-close{        
+        line-height: 3.5rem;
+        font-size: 1.7rem;
     }  
     .container-home{
         width: 100%;                
@@ -415,11 +419,17 @@
       .container-contact .container .account .git,.insta,.twitt{           
       }
 } 
-@media screen and (max-width:400px){
+@media screen and (max-width:400px){  
   .sidepart.active{
-    height: 3.4rem;
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    height: 3.4rem;    
+  }
+  .sidebar .sidebar-item{
+    margin-top: 2%;
+  }
+  .fa-bars,.fa-close{
+    font-size: 1.5rem;
+    line-height: 3.4rem;    
   }
 }
 
