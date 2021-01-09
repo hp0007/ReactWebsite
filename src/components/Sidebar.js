@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import homeImg from '../images/icons/home.png' 
-import serviceImg from '../images/icons/technical-support.png'
-import aboutImg from '../images/icons/about.png'
-import skillImg from '../images/icons/skill.png'
-import portfolioImg from '../images/icons/briefcase.png'
-import contactImg from '../images/icons/contact.png'
+import {AiOutlineHome} from 'react-icons/ai'
+import {VscServerProcess} from 'react-icons//vsc'
+import {BsPerson} from 'react-icons/bs'
+import {RiStackLine} from 'react-icons/ri'
+import {IoBriefcaseOutline} from 'react-icons/io5'
+import {AiOutlinePhone} from 'react-icons/ai'
 
 const Header = (props) => {        
     
@@ -14,37 +14,37 @@ const Header = (props) => {
             id:1,
             name:'Home',
             path:'/ReactWebsite',    
-            icon:homeImg
+            icon:<AiOutlineHome/>
         },
         {
             id:2,
             name:'Services',
             path:'/services',            
-            icon:serviceImg
+            icon:<VscServerProcess/>
         },
         {
             id:3,
             name:'About',
             path:'/about',            
-            icon:aboutImg
+            icon:<BsPerson/>
         },
         {
             id:4,
             name:'Skills',
             path:'/skills',
-            icon:skillImg
+            icon:<RiStackLine/>
         },
         {
             id:5,
             name:'Portfolio',
             path:'/portfolio',            
-            icon:portfolioImg
+            icon:<IoBriefcaseOutline/>
         },        
         {
             id:6,
             name:'Contact',
             path:'/contact',            
-            icon:contactImg
+            icon:<AiOutlinePhone/>
         }
     ]
     
@@ -119,7 +119,7 @@ const Header = (props) => {
                             return(    
                                 <NavLink className="sidebar-item" to={data.path} key={data.id}  onClick={display} activeClassName="active2">                                    
                                     {data.name}
-                                    <img src={data.icon} style={{color:'black'}}/>                                                                           
+                                    <i>{data.icon}</i>
                                 </NavLink>
                             )
                         })

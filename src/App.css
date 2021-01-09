@@ -71,13 +71,11 @@ body{
   /* text-align: center; */
   /* text-align: center;     */
 } 
-.sidebar img{  
-  height: 1.3rem;
-  width: 1.5rem;
+.sidebar i{      
   float: right; 
-  z-index: 11; 
-  overflow: hidden;  
-  margin-top: 3.7%;      
+  line-height:2.5rem;  
+  font-size: 1.4rem;
+  overflow: hidden;    
 }
 
 .sidebar .sidebar-item{  

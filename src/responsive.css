@@ -41,8 +41,8 @@
   .sidebar .sidebar-item.active2{
     border-radius: 0;    
     background: none;
-  }
-  .sidebar img{      
+  }  
+  .sidebar i{
     display: none;
   }
   .fa-bars,.fa-close{    
@@ -256,7 +256,7 @@
       border: none;
       background: none;
     }
-    .sidebar img{      
+    .sidebar i{      
       display: none;
     }
     .fa-bars,.fa-close{        
