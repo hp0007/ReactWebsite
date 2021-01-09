@@ -134,23 +134,24 @@
         margin-top: -5%;
     }
     .container-about{
-      width: 100%;
+      width: 100%;      
+      /* padding: 0%; */
     }
     .container-about .left{
-      width: 100%;                
+      width: 100%;              
       text-align: center; 
     }
     
     .container-about .left img{                        
-      width: 70%;
-      margin-left: -10%;
+        width: 60%;            
+        display: block;   
+        margin-left: 15%;
+        margin-right: auto;
     }
-    .container-about .right{
-      max-width: 100%;
-      margin-top: 0%;                
-      font-size: 0.8rem;                
-      text-align: justify;
-      padding: 10% 10%;
+    .container-about .right{      
+      font-size: 1rem;     
+      text-align: justify;  
+      padding:0 10%;            
     }
     .container-about .right h4{
       font-size: 1.2rem;
@@ -340,28 +341,32 @@
         font-size: 3rem;
       }
       .container-service .card h4{
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
       .container-about{
         width: 100%;
+        margin: 0;        
+        padding: 0;
       }
       .container-about .left{
-        width: 100%;                
-        text-align: center; 
+        width: 100%;          
+        margin: 0;      
+        padding: 0;
       }
       .container-about .left img{                        
-        width: 70%;
-        margin-left: -10%;
+        width: 80%;       
+        display: block;   
+        margin-left: 5%;
+        margin-right: auto;
       }
-      .container-about .right{
-        max-width: 100%;
-        margin-top: 0%;                
-        font-size: 0.8rem;                
-        text-align: justify;
-        padding: 10% 10%;
+      .container-about .right{                
+        font-size: 0.8rem;     
+        text-align: justify;  
+        padding:0 15%;        
+        -webkit-font-smoothing: antialiased;                    
       }
       .container-about .right h4{
-        font-size: 1rem;
+        font-size: 1rem;        
       }            
 
       .container-skill{
