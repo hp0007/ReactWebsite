@@ -1,29 +1,25 @@
 {
   "files": {
-    "main.css": "/ReactWebsite/static/css/main.3c45ef3d.chunk.css",
-    "main.js": "/ReactWebsite/static/js/main.e362287d.chunk.js",
-    "main.js.map": "/ReactWebsite/static/js/main.e362287d.chunk.js.map",
+    "main.css": "/ReactWebsite/static/css/main.f0a9b7a6.chunk.css",
+    "main.js": "/ReactWebsite/static/js/main.cca50be8.chunk.js",
+    "main.js.map": "/ReactWebsite/static/js/main.cca50be8.chunk.js.map",
     "runtime-main.js": "/ReactWebsite/static/js/runtime-main.d5293c70.js",
     "runtime-main.js.map": "/ReactWebsite/static/js/runtime-main.d5293c70.js.map",
     "static/css/2.1a02f21c.chunk.css": "/ReactWebsite/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.e01472b1.chunk.js": "/ReactWebsite/static/js/2.e01472b1.chunk.js",
-    "static/js/2.e01472b1.chunk.js.map": "/ReactWebsite/static/js/2.e01472b1.chunk.js.map",
+    "static/js/2.5b62264c.chunk.js": "/ReactWebsite/static/js/2.5b62264c.chunk.js",
+    "static/js/2.5b62264c.chunk.js.map": "/ReactWebsite/static/js/2.5b62264c.chunk.js.map",
     "index.html": "/ReactWebsite/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/ReactWebsite/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.3c45ef3d.chunk.css.map": "/ReactWebsite/static/css/main.3c45ef3d.chunk.css.map",
-    "static/js/2.e01472b1.chunk.js.LICENSE.txt": "/ReactWebsite/static/js/2.e01472b1.chunk.js.LICENSE.txt",
-    "static/media/about.a6ae3e6b.png": "/ReactWebsite/static/media/about.a6ae3e6b.png",
-    "static/media/contact.eef1f173.png": "/ReactWebsite/static/media/contact.eef1f173.png",
+    "static/css/main.f0a9b7a6.chunk.css.map": "/ReactWebsite/static/css/main.f0a9b7a6.chunk.css.map",
+    "static/js/2.5b62264c.chunk.js.LICENSE.txt": "/ReactWebsite/static/js/2.5b62264c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ReactWebsite/static/media/home.0cbf1bd7.jpg",
-    "static/media/profile2.e786e170.png": "/ReactWebsite/static/media/profile2.e786e170.png",
-    "static/media/skill.d453641d.png": "/ReactWebsite/static/media/skill.d453641d.png",
-    "static/media/technical-support.d8c3bae9.png": "/ReactWebsite/static/media/technical-support.d8c3bae9.png"
+    "static/media/profile2.e786e170.png": "/ReactWebsite/static/media/profile2.e786e170.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d5293c70.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.e01472b1.chunk.js",
-    "static/css/main.3c45ef3d.chunk.css",
-    "static/js/main.e362287d.chunk.js"
+    "static/js/2.5b62264c.chunk.js",
+    "static/css/main.f0a9b7a6.chunk.css",
+    "static/js/main.cca50be8.chunk.js"
   ]
 }
