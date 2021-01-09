@@ -424,17 +424,30 @@
       .container-contact .container .account .git,.insta,.twitt{           
       }
 } 
-@media screen and (max-width:400px){  
+@media screen and (max-width:362px){  
+  .sidepart{     
+    max-height: 100vh;    
+    overflow-y: scroll;    
+  }
   .sidepart.active{
     margin: 0;
-    height: 3.4rem;    
+    height: 3.4rem;  
+    overflow-y: hidden;
+  }  
+  .sidebar{    
+    height: 65%;    
   }
   .sidebar .sidebar-item{
-    margin-top: 2%;
+    margin-top: 5%;    
   }
   .fa-bars,.fa-close{
     font-size: 1.5rem;
     line-height: 3.4rem;    
+    z-index: 11;        
+  }
+  .container-home .overlay .content h3{
+    font-size: 3rem;
+    margin-top: 15%;
   }
 }
 
