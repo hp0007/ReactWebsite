@@ -107,7 +107,7 @@ const Header = (props) => {
     return (
         
         <>        
-            <div className="sidepart active"  id="sidebar">    
+            <div className="sidepart active"  id="sidebar">                        
                     <i className="fa fa-bars" onClick={display} id="mainicon"></i>           
                     <div className="img-profile"></div> 
                     <h4 className="name">Harshit Gajjar</h4>

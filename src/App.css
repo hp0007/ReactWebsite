@@ -34,7 +34,9 @@ body{
   z-index: 11;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
-
+.sidepart .mainlogo{
+  display: none;
+}
 .sidepart.active{
   margin-left: -16%;
 }
@@ -73,7 +75,7 @@ body{
 } 
 .sidebar i{      
   float: right; 
-  line-height:2.5rem;  
+  line-height:2.3rem;  
   font-size: 1.4rem;
   overflow: hidden;    
 }
@@ -107,7 +109,8 @@ body{
   margin-top: 5%;  
   z-index: 13;    
   padding-right: 6%;
-  overflow: hidden;    
+  overflow: hidden; 
+  cursor: pointer;   
 }
 .fa-close{
   color: var(--black);
@@ -117,6 +120,7 @@ body{
   z-index: 13;
   padding-right: 6%;     
   overflow: hidden;     
+  cursor: pointer;
 }
 
 /* text animation */
@@ -128,8 +132,8 @@ body{
   right: 0;
   height: 100vh;     
   position: absolute;
-  background-image: url(./images/home.jpg);
-  background-size: cover;
+  background-image: url(./images/back2.jpg);
+  background-size: cover;  
   transition: all .7s;    
 }
 .container-home .overlay{  
@@ -140,7 +144,7 @@ body{
   align-items: center;
   padding:2px;  
   padding: 0% 10% 0% 10%;             
-  background: rgba(0, 0, 0, 0.6)
+  background: rgba(0, 0, 0, 0)
 }
 .container-home .overlay .content{ 
   color: var(--white);   
@@ -152,7 +156,7 @@ body{
   overflow: hidden;  
   text-transform: uppercase;
   background: var(--primary_color);
-  opacity: 0.7;
+  opacity: 1;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;        
   font-weight: bold;  
@@ -385,15 +389,13 @@ body{
 .container-contact .container input{
   height: 2.4em;
   width: 90%;
-  margin-bottom: 3%;  
-  padding-left: 2%;    
-  border-top: none; 
-  border-left: none;
-  border-bottom: none;
-  border-right: 3px solid var(--primary_color);
+  margin-bottom: 3%;    
   outline: none;  
-  border-radius: 0.5em ;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-top: none;
+  border-left: none;
+  border-right:none ;  
+  border-bottom: 1px solid black;
+  border-radius: 0em ;  
 }
 .container-contact .container textarea{  
   padding-left: 2%;

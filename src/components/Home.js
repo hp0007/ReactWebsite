@@ -14,7 +14,7 @@ const Home = () => {
                     <div className="overlay">
                         <Fade right>
                             <div className="content">
-                                <h3>i am designer</h3>                                  
+                                <h3>i am developer</h3>                                  
                                 <p className="seco">I Make Wonderful Things</p>
                                 <p className="thir">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit ex reprehenderit eos architecto sed debitis nam optio repellat quis. Aliquid suscipit nesciunt corrupti non quaerat obcaecati unde adipisci et!</p>
                                 <Button name="My Portfolio" link="/portfolio"/>

@@ -15,7 +15,7 @@
     position: fixed;      
     padding: 0;
     margin: 0;
-    z-index: 1; 
+    z-index: 11; 
     background-color: var(--background);       
     transition: .5s;
     overflow-y: hidden;
@@ -65,14 +65,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      opacity:0.8;  
-      background-color: var(--black);  
+      opacity:1;        
+      z-index: 0;
     }
     .overlay .content{ 
       color: var(--background);                 
     }
     .container-home .overlay .content h3{
-        font-size: 3.8rem;
+        font-size: 5rem;
         overflow: hidden;
         width: 100%;
         color: var(--primary_color);          
@@ -226,7 +226,7 @@
       position: fixed;      
       padding: 0;
       margin: 0;
-      z-index: 1; 
+      z-index: 11; 
       background-color: var(--background);       
       transition: .5s;   
       overflow: hidden;     
@@ -278,8 +278,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity:0.8;  
-        background-color: var(--black);  
+        opacity: 1;        
+        z-index: 0;
       }
       .overlay .content{ 
         color: var(--background);                 
