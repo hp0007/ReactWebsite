@@ -8,6 +8,29 @@
   --font_weight_regular:500;
 }
 
+@media screen and (min-width:1440px){
+  .sidepart{
+    width: 20%;
+  }
+  .sidepart.active{
+    margin-left: -16.3%;
+  }
+  .container-home{
+    width: 96.3%;
+  }
+  .container-about{
+    width: 96.3%;
+  }
+  .container-service{
+    width: 96.3%;
+  }
+  .container-portfolio{
+    width: 96.3%;
+  }
+  .container-contact{
+    width: 96.3%;
+  }
+}
 @media screen and (max-width:900px){
   .sidepart{      
     width: 100%;
@@ -99,8 +122,8 @@
       font-weight: 500;
     }
     .container-home Button{
-      padding: 4% 6% 4% 6%;
-      font-size: 1rem;
+      padding: 2% 4% 2% 4%;
+      font-size: 1.2rem;
     }
 
     .container-1{
@@ -229,14 +252,15 @@
       z-index: 11; 
       background-color: var(--background);       
       transition: .5s;   
-      overflow: hidden;     
+      overflow: hidden;         
     }        
     .sidepart .work{
       margin-top: 1%;      
     }
     .sidepart.active{            
-      margin: 0;
-      height: 3.4rem;           
+      margin: 0;      
+      height: 3.4rem;    
+      overflow: hidden;               
     }
     .sidepart .img-profile{
       margin-top: 18%;      
@@ -285,7 +309,7 @@
         color: var(--background);                 
       }
       .container-home .overlay .content h3{
-          font-size: 3.8rem;
+          font-size: 3.2rem;
           overflow: hidden;
           width: 100%;
           color: var(--primary_color);          
@@ -297,12 +321,7 @@
       }
       .overlay .content .thir{
         font-size: 1.2rem;        
-      }
-      .container-home .overlay .content h1{
-        font-size: 2.5rem;
-        font-weight: 600;
-        letter-spacing: 2px;
-      }
+      }     
       .container-home .overlay .content .seco{
         font-size: 1rem;
       }
@@ -312,7 +331,7 @@
         font-weight: 500;
       }
       .container-home Button{
-        padding: 4% 6% 4% 6%;
+        padding: 3% 5% 3% 5%;
         font-size: 1rem;
       }
 
@@ -426,19 +445,20 @@
 } 
 @media screen and (max-width:362px){  
   .sidepart{     
-    max-height: 100vh;    
-    overflow-y: scroll;    
+    height: 100vh;    
+    overflow-y: hidden;
   }
   .sidepart.active{
     margin: 0;
-    height: 3.4rem;  
-    overflow-y: hidden;
+    height: 3.4rem;    
+    overflow-y: hidden;  
   }  
   .sidebar{    
-    height: 65%;    
+    height: 65%;        
   }
   .sidebar .sidebar-item{
-    margin-top: 5%;    
+    margin-top: 2.2%;    
+    overflow: hidden;
   }
   .fa-bars,.fa-close{
     font-size: 1.5rem;
