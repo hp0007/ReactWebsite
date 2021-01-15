@@ -11,16 +11,13 @@ import {AiFillGithub} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 
+
+
 const Contact = () => {
     const {register , handleSubmit} = useForm() 
 
-
-    const onSubmit = (data) => { 
-        // alert(data.fullname)     
-        
-    }
     return (
-        <div className="container-contact" id="contact">            
+        <div className="container-contact" id="contact">          
             <Sidebar id="contact" />
             <Fade top>
                 <Heading title="GET IN TOUCH" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!" />
@@ -29,7 +26,7 @@ const Contact = () => {
                 <div className="row">
                     <Fade left>
                         <div className="col-12 col-md-12 col-lg-6 left">                        
-                                <form onSubmit={handleSubmit(onSubmit)} method="post">
+                                <form method="post">
                                     <Label title="Your Name :" />
                                     <input type="text" name="fullname" id="name" ref={register} />
                                     <Label title="Email Address :" />
@@ -71,9 +68,9 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="account">
-                                <div className="git"><AiFillGithub /></div>
-                                <div className="insta"><AiFillInstagram /></div>
-                                <div className="twitt"><AiFillTwitterCircle /></div>
+                                <a className="git" href="https://github.com/hp0007/ReactWebsite/"><AiFillGithub /></a>
+                                <a className="insta" href="https://www.instagram.com/b_harshit_p/"><AiFillInstagram /></a>
+                                <a className="twitt" href="https://twitter.com/Harshit32482089/"><AiFillTwitterCircle /></a>
                             </div>
                             
                         </div>

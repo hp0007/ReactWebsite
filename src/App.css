@@ -250,8 +250,13 @@ body{
   border: none;   
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   margin-bottom: 2%;
-  border-radius: 5%;  
+  border-radius: 5%;
+  transition: 0.2s ease-in;
 }
+
+.container-service .card:hover{
+  margin-top: 14%;
+} 
 .container-service .card h4{
   padding-top: 10%;  
   overflow-y: hidden;  
@@ -396,6 +401,10 @@ body{
   border-right:none ;  
   border-bottom: 1px solid black;
   border-radius: 0em ;  
+  padding-left: 1%;
+}
+.container-contact .container input:focus{
+  border:1px solid black;
 }
 .container-contact .container textarea{  
   padding-left: 2%;
