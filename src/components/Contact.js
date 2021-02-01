@@ -19,9 +19,7 @@ const Contact = () => {
     return (
         <div className="container-contact" id="contact">          
             <Sidebar id="contact" />
-            <Fade top>
-                <Heading title="GET IN TOUCH" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!" />
-            </Fade>
+            <Heading title="GET IN TOUCH" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!" />
             <div className="container">
                 <div className="row">
                     <Fade left>

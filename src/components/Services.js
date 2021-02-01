@@ -2,7 +2,6 @@ import { React, useState} from 'react'
 import Sidebar from '../components/Sidebar'
 import Cards from '../components/ReusableComoponents/Cards'
 import Heading from '../components/ReusableComoponents/Heading'
-import Fade from 'react-reveal/Fade'
 
 
 const Services = () => {
@@ -17,9 +16,7 @@ const Services = () => {
         <Sidebar id="services"/>                            
         <div className="outer-container">                
             <div className="container-service" id="services">                      
-                <Fade left>                    
                     <Heading title="SERVICES" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!"/>            
-                </Fade>                      
                     <Cards cardData={array}/>
                 </div>            
         </div>

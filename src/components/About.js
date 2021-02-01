@@ -9,10 +9,8 @@ const About = () => {
     return (        
         <>
             <Sidebar id="about"/>                                          
-                <div className="container-about" id="about">
-                    <Fade top>                    
-                            <Heading title="ABOUT" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!"/>            
-                    </Fade>  
+                <div className="container-about" id="about">            
+                    <Heading title="ABOUT" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cumque error modi esse quos fuga placeat vero ut explicabo, repudiandae earum rerum tempore asperiores soluta alias dignissimos porro? Quidem, rem!"/>            
                     <div className="row">
                         <Fade left>
                         <div className="col-12 col-md-12 col-lg-6 left">
