@@ -4,7 +4,6 @@ import Sidebar from './Sidebar'
 import Button from './ReusableComoponents/Button'
 import Zoom from 'react-reveal/Zoom'
 import Flip from 'react-reveal/Flip'
-import {Animated} from "react-animated-css"
 
 const Home = () => {
    
@@ -18,7 +17,7 @@ const Home = () => {
                                 <Flip top>
                                     <h3>i am developer</h3>                                  
                                 </Flip>
-                                <Zoom >
+                                <Zoom>
                                     <p className="seco">I Make Wonderful Things</p>
                                     <p className="thir">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit ex reprehenderit eos architecto sed debitis nam optio repellat quis. Aliquid suscipit nesciunt corrupti non quaerat obcaecati unde adipisci et!</p>
                                     <Button name="My Portfolio" link="/portfolio"/>
